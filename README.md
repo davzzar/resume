@@ -1,2 +1,2 @@
 # Resume github pages html file
-## See the resume [here](davzzar.github.io/resume).
+## See the resume [here](https://davzzar.github.io/resume).

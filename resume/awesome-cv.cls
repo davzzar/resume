@@ -82,7 +82,7 @@
 \RequirePackage{parskip}
 % Needed to deal hyperlink
 \usepackage{xcolor}
-\RequirePackage[unicode]{hyperref}
+\RequirePackage[colorlinks = true,unicode]{hyperref}
 \hypersetup{%
   pdftitle={},
   pdfauthor={},
@@ -466,7 +466,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{mailto:\@email}{\faEnvelope\acvHeaderIconSep\@email}%
+          \href{mailto:\@email}{\color{graytext}{\faEnvelope\acvHeaderIconSep\@email}}%
         }%
       \ifthenelse{\isundefined{\@homepage}}%
         {}%
@@ -478,7 +478,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://github.com/\@github}{\faGithubSquare\acvHeaderIconSep\@github}%
+          \href{https://github.com/\@github}{\color{graytext}{\faGithubSquare\acvHeaderIconSep\@github}}%
         }%
       \ifthenelse{\isundefined{\@gitlab}}%
         {}%

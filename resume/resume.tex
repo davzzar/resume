@@ -46,36 +46,6 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
-
-%-------------------------------------------------------------------------------
-%	PERSONAL INFORMATION
-%	Comment any of the lines below if they are not required
-%-------------------------------------------------------------------------------
-% Available options: circle|rectangle,edge/noedge,left/right
-% \photo[rectangle,edge,right]{./examples/profile}
-\name{David Simon}{Tetruashvili}
-\position{Undergraduate Computer Science Student{\enskip$\cdot$\enskip}Tinkerer}
-\address{Lambeth, London, United Kingdom.{\enskip$\cdot$\enskip}Berlin, Germany.}
-
-\mobile{(+44) (0) 786–407–5561{\enskip$\cdot$\enskip}(+49) (0) 172–323–0427}
-\email{david.tetruashvili@kcl.ac.uk}
-%\homepage{}
-\github{davzzar}
-\linkedin{DavidSTetruashvli}
-% \gitlab{gitlab-id}
-% \stackoverflow{SO-id}{SO-name}
-% \twitter{@twit}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \medium{madium-id}
-% \googlescholar{googlescholar-id}{name-to-display}
-%% \firstname and \lastname will be used
-% \googlescholar{googlescholar-id}{}
-% \extrainfo{extra informations}
-
-\quote{``The best oportunity comes when you find you need somethig that does not exists yet."}
-
-
 %-------------------------------------------------------------------------------
 % better undeline command by alexwlchan (https://alexwlchan.net/2017/10/latex-underlines/)
 \usepackage{contour}
@@ -88,21 +58,51 @@
   \uline{\phantom{#1}}%
   \llap{\contour{white}{#1}}%
 }
+
+% Bullet Seperator
+\newcommand{\bsep}{~~•~~}
 %-------------------------------------------------------------------------------
 
-\usepackage{hyperref}
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[rectangle,edge,right]{profile}
+\name{David Simon}{Tetruashvili}
+\position{Undergraduate Computer Science Student\bsep Tinkerer}
+\address{Lambeth, London, United Kingdom.\bsep Berlin, Germany.}
+
+\mobile{(+44) (0) 786–407–5561\bsep (+49) (0) 172–323–0427}
+\email{david.tetruashvili@kcl.ac.uk}
+%\homepage{}
+\github{davzzar}
+%\linkedin{DavidSTetruashvli}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+\quote{``The best opportunity comes when you find you need something that does not yet exist.''}
+
 
 \begin{document}
 
 % Print the header with above personal informations
 % Give optional argument to change alignment(C: center, L: left, R: right)
-\makecvheader[C]
+\makecvheader[R]
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-    {David S. Tetruashvli~~~·~~~Résumé}
+    {David S. Tetruashvli\bsep Résumé}
   {\thepage}
 
 
@@ -113,9 +113,9 @@
 \input{sections/profile.tex}
 \input{sections/education.tex}
 \input{sections/experience.tex}
-\input{sections/skills.tex}
 \newpage
 \input{sections/projects.tex}
+\input{sections/skills.tex}
 \input{sections/extracurricular.tex}
 % \input{sections/honors.tex}
 % \input{sections/presentation.tex}

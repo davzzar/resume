@@ -1,0 +1,40 @@
+{
+    "ltex.ignoreRuleInSentence": [
+        {
+            "rule": "MORFOLOGIK_RULE_EN_GB",
+            "sentence": "^\\Qawesomeawesome-orange\\E$"
+        },
+        {
+            "rule": "MORFOLOGIK_RULE_EN_GB",
+            "sentence": "^\\QacvSectionColorHighlightfalse\\E$"
+        },
+        {
+            "rule": "COMMA_PARENTHESIS_WHITESPACE",
+            "sentence": "^\\Q[rectangle,edge,right]profile David SimonTetruashvili Undergraduate Computer Science Student\\EDummy[0-9]+\\QTinkerer Lambeth, London, United Kingdom.\\E$"
+        },
+        {
+            "rule": "MORFOLOGIK_RULE_EN_GB",
+            "sentence": "^\\Q[rectangle,edge,right]profile David SimonTetruashvili Undergraduate Computer Science Student\\EDummy[0-9]+\\QTinkerer Lambeth, London, United Kingdom.\\E$"
+        },
+        {
+            "rule": "MORFOLOGIK_RULE_EN_GB",
+            "sentence": "^\\Q(+44) (0) 786–407–5561\\EDummy[0-9]+\\Q(+49) (0) 172–323–0427 \\EDummy[0-9]+\\Q davzzar\\E$"
+        },
+        {
+            "rule": "MORFOLOGIK_RULE_EN_GB",
+            "sentence": "^\\QBachelor of Science in Computer Science (with Artificial Intelligence) (Hons.)\\E$"
+        },
+        {
+            "rule": "MORFOLOGIK_RULE_EN_GB",
+            "sentence": "^\\QExtended Essay in Computer Science on Evaluation of Texture Filtering Algorithms applied in VR HUDs: 33/36 points, Grade A.\\E$"
+        },
+        {
+            "rule": "MORFOLOGIK_RULE_EN_GB",
+            "sentence": "^\\QInternational-GCSE Sep. 2015 — May 2017 10 IGCSEs with eight being A* or A, including A*s in Mathematics, Physics, and ICT.\\E$"
+        },
+        {
+            "rule": "MULTIPLICATION_SIGN",
+            "sentence": "^\\QInternational-GCSE Sep. 2015 — May 2017 10 IGCSEs with eight being A* or A, including A*s in Mathematics, Physics, and ICT.\\E$"
+        }
+    ]
+}
